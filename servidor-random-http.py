@@ -30,7 +30,6 @@ mySocket.listen(5)
 while True:
     a = random.randint(0, 1000000000)
     dir = "http://localhost:1234/" + str(a)
-    print(dir)
 
     print ('Waiting for connections')
     (recvSocket, address) = mySocket.accept()
